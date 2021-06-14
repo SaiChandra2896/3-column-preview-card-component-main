@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 95%);
+  background: rgb(242, 242, 242);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.card {
+  display: flex;
+  width: 70%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 870px;
+  /* background-color: aqua; */
+}
+
+.sedans,
+.suv,
+.luxury {
+  padding: 2rem;
+}
+
+.sedans {
+  background: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background: hsl(179, 100%, 13%);
+}
+
+.sedans > img,
+.suv > img,
+.luxury > img {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.sedans h1,
+.suv h1,
+.luxury h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.sedans > p,
+.suv > p,
+.luxury > p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.6px;
+  margin-bottom: 2rem;
+  height: 40%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background: hsl(0, 0%, 95%);
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  margin-bottom: 3rem;
+  font-size: 0.8rem;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv a {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedans a:hover,
+.sedans a:active {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  /* border: 2px solid hsl(0, 0%, 95%); */
+}
+
+.suv a:hover,
+.suv a:active {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury a:hover,
+.luxury a:active {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  .card {
+    flex-direction: column;
+    width: 60%;
+    /* overflow: visible; */
+  }
+  .sedans,
+  .suv,
+  .luxury {
+    padding: 1rem;
+  }
+  .sedans > img,
+  .suv > img,
+  .luxury > img {
+    margin-bottom: 0.5rem;
+    width: 2rem;
+  }
+  .sedans h1,
+  .suv h1,
+  .luxury h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .sedans > p,
+  .suv > p,
+  .luxury > p {
+    margin-bottom: 0;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    height: 35%;
+  }
+  a {
+    margin-bottom: 1.5rem;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
