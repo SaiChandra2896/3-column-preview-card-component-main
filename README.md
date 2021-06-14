@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-design-using-html-css-9Pm9O4SrJ)
-- Live Site URL: [Add live site URL here](https://3-column-preview-card-component-main-woad.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-design-using-html-css-9Pm9O4SrJ](https://www.frontendmentor.io/solutions/responsive-design-using-html-css-9Pm9O4SrJ)
+- Live Site URL: [https://3-column-preview-card-component-main-woad.vercel.app/](https://3-column-preview-card-component-main-woad.vercel.app/)
 
 ## My process
 
